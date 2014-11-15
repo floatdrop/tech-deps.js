@@ -1,0 +1,27 @@
+{
+  "name": "tech-deps.js",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/floatdrop/tech-deps.js.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/floatdrop/tech-deps.js/issues"
+  },
+  "homepage": "https://github.com/floatdrop/tech-deps.js",
+  "dependencies": {
+    "require-or-die": "^0.3.0",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.0.1",
+    "mock-fs": "^2.3.2"
+  }
+}
