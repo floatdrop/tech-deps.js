@@ -5,7 +5,7 @@ module.exports = function (opts) {
     return through2.obj(function (obj, enc, cb) {
         if (obj.tech !== 'deps.js') { return cb(null, obj); }
 
-        rod(obj.path, function (err, deps) {
+        rod(obj.path, opts, function (err, deps) {
             if (err) { return cb(err); }
 
             obj.require = deps.mustDeps || deps.require;

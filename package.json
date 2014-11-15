@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/floatdrop/tech-deps.js",
   "dependencies": {
-    "require-or-die": "^0.3.0",
+    "require-or-die": "^1.0.0",
     "through2": "^0.6.3"
   },
   "devDependencies": {
